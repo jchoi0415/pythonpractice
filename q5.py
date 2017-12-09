@@ -31,20 +31,7 @@ REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODI
 def howmanygames(p, d, m, s):
     # Write code from below here! I initialised the variable you can use to return (but feel free to change it however)
     numofgames = 0
-    price = p
-    balance = 0
 
-    while balance + price < s and price >= m:
-        balance += price
-        numofgames += 1
-        print('Price: ' + str(price))
-        print('Balance: ' + str(balance))
-        if price - d < m:
-            price = m
-        else:
-            price -= d
-
-    print('Games: ' + str(numofgames))
     return numofgames
 
 
