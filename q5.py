@@ -28,28 +28,41 @@ REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODI
 
 
 # You only have to modify the function below. Do not modify main function or anything below it
-def howmanygames(lower, upper):
-    # Write code from below here! I initialised the list you can use to return (but feel free to change it however)
-    mylist = []
+def howmanygames(p, d, m, s):
+    # Write code from below here! I initialised the variable you can use to return (but feel free to change it however)
+    numofgames = 0
+    price = p
+    balance = 0
 
-    return mylist
+    while balance + price < s and price >= m:
+        balance += price
+        numofgames += 1
+        print('Price: ' + str(price))
+        print('Balance: ' + str(balance))
+        if price - d < m:
+            price = m
+        else:
+            price -= d
+
+    print('Games: ' + str(numofgames))
+    return numofgames
 
 
 def main():
     answerCounter = 0
-    numofCase = 2
+    numofCase = 4
 
     output1 = howmanygames(20, 3, 6, 80)
     answer1 = 6
 
-    output2 = howmanygames(20, 3, 6, 80)
-    answer2 = 6
+    output2 = howmanygames(150, 7, 22, 5000)
+    answer2 = 171
 
-    output3 = howmanygames(20, 3, 6, 80)
-    answer3 = 6
+    output3 = howmanygames(20, 3, 21, 80)
+    answer3 = 0
 
-    output4 = howmanygames(20, 3, 6, 80)
-    answer4 = 6
+    output4 = howmanygames(20, 3, 6, 0)
+    answer4 = 0
 
     if output1 == answer1:
         print('Congratz! 1st case 맞았거든')
@@ -62,6 +75,18 @@ def main():
         answerCounter += 1
     else:
         print('빼애애애액! 2nd case 틀렸거든... 고쳐봐 ㅋㅋ')
+
+    if output3 == answer3:
+        print('Congratz! 3rd case 맞았거든')
+        answerCounter += 1
+    else:
+        print('빼애애애액! 3rd case 틀렸거든... 고쳐봐 ㅋㅋ')
+
+    if output4 == answer4:
+        print('Congratz! 4th case 맞았거든')
+        answerCounter += 1
+    else:
+        print('빼애애애액! 4th case 틀렸거든... 고쳐봐 ㅋㅋ')
 
     print('You got ' + str(answerCounter) + ' out of ' + str(numofCase) + ' questions correct')
 
