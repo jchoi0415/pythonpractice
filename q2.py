@@ -10,6 +10,7 @@ Check answer1 for an idea of the answer format
 REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
+
 # You only have to modify the function below. Do not modify main function or anything below it
 def squaremynumber(mylist):
     # Write code from below here! I initialised the dict you can use to return (but feel free to change it however)

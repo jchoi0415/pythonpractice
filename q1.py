@@ -8,6 +8,7 @@ This function requires a list of all the numbers. Check answer1 and answer2 for 
 REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
+
 # You only have to modify the function below. Do not modify main function or anything below it
 def givemylist(lower, upper):
     # Write code from below here! I initialised the list you can use to return (but feel free to change it however)

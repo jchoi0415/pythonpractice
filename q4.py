@@ -14,6 +14,7 @@ This function requires a word and index as results. Check answer1 and answer2 fo
 REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
+
 # You only have to modify the function below. Do not modify main function or anything below it
 def whatstheword(sentence):
     # Write code from below here! I initialised the variables you can use to return (but feel free to change it however)
