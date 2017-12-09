@@ -1,4 +1,7 @@
 '''
+Author: Jack Choi
+Date: 10/12/17
+
 Write code which will find the words for the given index
 e.g. If the sentence is 'Hello my name is Choiboy', and firstindex = 2, secondindex = 5
 word1 is 'my' and word2 is 'Choiboy'.
@@ -11,7 +14,7 @@ This function requires two words as results. Check answer1 and answer2 for an id
 REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
-
+# You only have to modify the function below. Do not modify main function or anything below it
 def whatstheword(sentence, firstindex, secondindex):
     # Write code from below here! I initialised the words you can use to return (but feel free to change it however)
     word1 = ''

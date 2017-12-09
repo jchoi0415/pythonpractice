@@ -1,11 +1,14 @@
 '''
+Author: Jack Choi
+Date: 10/12/17
+
 Write code which will find all such numbers which are divisible by 7 but are not a multiple of 5
 
 This function requires a list of all the numbers. Check answer1 and answer2 for an idea of the answer format
 REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
-
+# You only have to modify the function below. Do not modify main function or anything below it
 def givemylist(lower, upper):
     # Write code from below here! I initialised the list you can use to return (but feel free to change it however)
     mylist = []

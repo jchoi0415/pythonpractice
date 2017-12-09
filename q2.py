@@ -1,4 +1,7 @@
 '''
+Author: Jack Choi
+Date: 10/12/17
+
 Write code which will find all such numbers which will return the squared number give to you
 The numbers are given to you in a list and you are to use a dictionary to show the results.
 
@@ -7,7 +10,7 @@ Check answer1 for an idea of the answer format
 REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
-
+# You only have to modify the function below. Do not modify main function or anything below it
 def squaremynumber(mylist):
     # Write code from below here! I initialised the dict you can use to return (but feel free to change it however)
     d = dict()
