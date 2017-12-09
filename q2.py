@@ -4,10 +4,11 @@ The numbers are given to you in a list and you are to use a dictionary to show t
 
 This function requires a dict of all the numbers and it's squared numbers.
 Check answer1 for an idea of the answer format
+REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODING PURPOSES
 '''
 
 
-def givemylist(mylist):
+def squaremynumber(mylist):
     # Write code from below here! I initialised the dict you can use to return (but feel free to change it however)
     d = dict()
 
@@ -18,7 +19,7 @@ def main():
     answerCounter = 0
     numofCase = 1
 
-    output1 = givemylist(list(range(1, 50)))
+    output1 = squaremynumber(list(range(1, 50)))
     answer1 = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196,
                15: 225, 16: 256, 17: 289, 18: 324, 19: 361, 20: 400, 21: 441, 22: 484, 23: 529, 24: 576, 25: 625,
                26: 676, 27: 729, 28: 784, 29: 841, 30: 900, 31: 961, 32: 1024, 33: 1089, 34: 1156, 35: 1225, 36: 1296,
