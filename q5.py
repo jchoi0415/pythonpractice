@@ -31,7 +31,16 @@ REMEMBER GOOGLE IS YOUR BEST FRIEND AND MAKE USE OF PRINT DEBUGGING FOR ALL CODI
 def howmanygames(p, d, m, s):
     # Write code from below here! I initialised the variable you can use to return (but feel free to change it however)
     numofgames = 0
-
+    if p < m:
+        return numofgames
+    while s >= p:
+        while p > m:
+            numofgames += 1
+            s -= p
+            p -= d
+        s -= m
+        numofgames += 1
+    print(numofgames)
     return numofgames
 
 
